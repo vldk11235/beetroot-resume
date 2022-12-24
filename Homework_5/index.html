@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма</title>
+</head>
+<body>
+<main>
+
+  <form action="">
+    <label>
+      Повне ім'я
+      <input type="text">
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Email
+      <input type="email">
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Пароль
+      <input type="password">
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Пароль ще раз
+      <input type="password">
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Стать
+      <input type="radio" name="sex">чоловіча
+      <input type="radio" name="sex">жіноча
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Вік
+      <input type="number" min="0" max="100" step="1">
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Курс
+      <input list="courses" placeholder="Виберіть курс">
+
+      <datalist id="courses">
+        <option value="Front-End">
+        <option value="Back-End">
+        <option value="Project Management">
+        <option value="QA Manual">
+        <option value="Карти Таро">
+      </datalist>
+    </label>
+
+  </form>
+
+  <form action="">
+    <label>
+      Курс
+      <select>
+        <option>-=Виберіть курс=-</option>
+        <option>Front-End</option>
+        <option>Back-End</option>
+        <option>Project Management</option>
+        <option>QA Manual</option>
+        <option>Карти Таро</option>
+      </select>
+    </label>
+  </form>
+  <form action="">
+    <label>
+      Повна адреса
+      <textarea rows="5" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+    </label>
+  </form>
+  <form action="">
+    <label>
+      <input type="checkbox">
+       Я погоджуюсь з обробкою персональних даних
+    </label>
+  </form>
+
+  <button>Очистити форму</button>
+  <button>Зареєструватися</button>
+
+
+</main>
+
+
+
+</body>
+</html>
