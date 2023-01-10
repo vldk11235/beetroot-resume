@@ -5,54 +5,71 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div><span>Home</span></div>
-    <div><span>About me</span></div>
-    <div><span>Skills</span></div>
-    <div><span>Portfolio</span></div>
-    <div><span>Contacts</span></div>
-</header>
 <main>
-    <h1>Denis Novik</h1>
+<header class="header">
+    <div class="header-wrapper">
+    <div class="header-item"><span>Home</span></div>
+    <div class="header-item"><span>About me</span></div>
+    <div class="header-item"><span>Skills</span></div>
+    <div class="header-item"><span>Portfolio</span></div>
+    <div class="header-item"><span>Contacts</span></div>
+    </div>
+</header>
 
-    <img src="image/main_photo.jpg" alt="Denis Novik">
+    <h1 class="title">Denis Novik</h1>
 
+    <img class="main-photo" src="image/main_photo.jpg" alt="Denis Novik">
+
+<div class="about-wrapper">
     <h2>About me</h2>
+    <div class="about">
     <p>Hi, I'm Denis – UX/UI designer from Minsk.
         I'm interested in design and everything connected with it.</p>
     <p>I'm studying at courses "Web and mobile design
         interfaces" in IT-Academy.</p>
     <p>Ready to implement excellent projects
         with wonderful people.</p>
-    <h2>Skills</h2>
+    </div>
+</div>
+<div class="skills-wrapper">
+   <div class="skills-heading">
+       <h2>Skills</h2>
     <span>I work in such programs as</span>
-    <div>
+   </div>
+    <div class="skills-list">
+    <div class="skill">
     <img src="image/Ps.svg" alt="photoshop">
     <span>Adobe
         Photoshop
     </span>
+
     </div>
-    <div>
+    <div class="skill">
         <img src="image/Ai.svg" alt="adobe illustrator">
         <span>Adobe
         Illustrator
     </span>
     </div>
-    <div>
+    <div class="skill">
         <img src="image/Ae.svg" alt="adobe after effects">
         <span>Adobe
               After Effects
         </span>
     </div>
-    <div>
+    <div class="skill">
         <img src="image/Figma.svg" alt="figma">
-        <span>Adobe
-        Photoshop
+        <span>
+            Figma
     </span>
     </div>
+    </div>
+</div>
+
+    <div class="portfolio-wrapper">
     <h2>Portfolio</h2>
     <img src="image/Fashion-Store.png" alt="fashion store">
     <span>Online fashion store - Homepage</span>
@@ -60,20 +77,28 @@
     <span>Reebok Store - Concept</span>
     <img src="image/braun-landing.png" alt="braun landing">
     <span>Braun Landing Page - Concept</span>
+    </div>
+
 
     <footer>
+        <div class="footer-wrapper">
         <h2>Contacts</h2>
         <span>Want to know more or just chat?
 You are welcome!</span>
         <button>Send message</button>
-    </footer>
+<div class="links">
     <a href=""><img src="image/linkedin.svg" alt="linkedin logo"></a>
     <a href=""><img src="image/instagram.svg" alt="instagram logo"></a>
     <a href=""><img src="image/behance.svg" alt="behance logo"></a>
     <a href=""><img src="image/dribbble.svg" alt="dribble logo"></a>
 
+</div>
+
     <h6>Like me on
         LinkedIn, Instagram, Behance, Dribble</h6>
+
+    </div>
+    </footer>
 
 
 
